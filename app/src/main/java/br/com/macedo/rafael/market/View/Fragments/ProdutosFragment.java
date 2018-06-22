@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
-import br.com.macedo.rafael.market.Domain.ProdutoPresenter;
+import br.com.macedo.rafael.market.Presenter.ProdutoPresenter;
 import br.com.macedo.rafael.market.MVP;
 import br.com.macedo.rafael.market.Model.Entity.Produto;
 import br.com.macedo.rafael.market.R;

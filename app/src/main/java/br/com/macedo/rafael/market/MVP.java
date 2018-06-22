@@ -10,11 +10,14 @@ public interface MVP {
     }
 
     interface Model<T> {
+        List<T> getDados();
+
     }
 
     interface Presenter<T> {
 
         List<T> getDados();
+
         Context getContext();
     }
 }

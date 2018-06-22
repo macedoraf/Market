@@ -1,9 +1,10 @@
-package br.com.macedo.rafael.market.Domain.Network.Retrofit;
+package br.com.macedo.rafael.market.Model.Network;
 
 import java.io.IOException;
 import java.util.List;
 
 import br.com.macedo.rafael.market.Model.Entity.Produto;
+import br.com.macedo.rafael.market.Model.Network.Retrofit.ProdutoREST;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
